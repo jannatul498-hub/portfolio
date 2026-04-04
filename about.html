@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Jannatul Ferdaus – ETE Student at RUET." />
+  <title>About | Jannatul Ferdaus</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="mainNav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">JF<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👩‍💼 About</a>
+    <a href="education.html">🎓 Education</a>
+    <a href="skills.html">⚡ Skills</a>
+    <a href="projects.html">🚀 Projects</a>
+    <a href="contact.html">✉️ Contact</a>
+  </div>
+
+  <main class="page-content">
+
+    <!-- PAGE HERO -->
+    <div class="page-hero">
+      <div class="page-hero-tag">Get To Know Me</div>
+      <h1 class="page-hero-title">About <span>Me</span></h1>
+      <p class="page-hero-desc">
+        A passionate engineer-in-training with a love for nature, technology, and storytelling.
+        Here's a glimpse into who I am beyond the textbooks.
+      </p>
+    </div>
+
+    <!-- ABOUT GRID -->
+    <div class="about-grid">
+
+      <!-- Left: Profile card -->
+      <div class="reveal-left">
+        <div class="about-photo-card">
+          <!-- Replace with: images/profile.jpg -->
+          <img
+            src="myPic.jpeg"
+            alt="Jannatul Ferdaus"
+            class="about-photo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="about-photo-placeholder" style="display:none;">
+            <span>🌸</span>
+            <p>Add images/profile.jpg</p>
+          </div>
+
+          <div class="about-card-info">
+            <div class="about-card-name">Jannatul Ferdaus</div>
+            <div class="about-card-role">ETE Student @ RUET</div>
+
+            <div class="about-detail-item">
+              <span class="di-icon">🏛️</span>
+              RUET — ETE Department
+            </div>
+            <div class="about-detail-item">
+              <span class="di-icon">📅</span>
+              Admitted: 2023
+            </div>
+            <div class="about-detail-item">
+              <span class="di-icon">📍</span>
+              Rajshahi, Bangladesh
+            </div>
+            <div class="about-detail-item">
+              <span class="di-icon">✉️</span>
+              jj826773@gmail.com
+            </div>
+            <div class="about-detail-item">
+              <span class="di-icon">🌐</span>
+              Available for Collaboration
+            </div>
+
+            <div style="margin-top:20px;">
+              <a href="contact.html" class="btn-primary" style="width:100%; justify-content:center; display:flex;">
+                ✉️ Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Content cards -->
+      <div class="about-content">
+
+        <!-- Bio -->
+        <div class="content-card reveal">
+          <h2 class="content-card-title">My Story</h2>
+          <p>
+            My name is <strong>Jannatul Ferdaus</strong>, and I am a student of Electronics and Telecommunication
+            Engineering (ETE) at Rajshahi University of Engineering & Technology (RUET), one of
+            Bangladesh's most prestigious public universities. I earned my admission in 2023 after achieving
+            a perfect GPA of 5.00 in both my SSC from Uttara High School and College and my HSC examinations —
+            a testament to my dedication and love for learning.
+          </p>
+          <p>
+            I grew up with a deep curiosity about how things work — from the circuits in a radio to the roots
+            of a plant in a garden. This dual love for engineering and nature has shaped my personality in
+            unique ways. I find the same patience required to grow a seedling applies beautifully to debugging
+            a circuit or iterating on a robotics design.
+          </p>
+          <p>
+            Beyond academics, I am passionate about photography — particularly capturing the quiet beauty of
+            gardens and the vibrant energy of engineering labs. I am also an avid storyteller and reciter;
+            I believe language and narrative are just as powerful as technology in changing the world.
+            My ability to communicate fluently in English allows me to engage with global ideas and perspectives.
+          </p>
+          <p>
+            In my second semester at RUET, my team and I built a <strong>Dementia Patient Assistive Device</strong>,
+            a project that blended embedded systems, human-centered design, and compassion for vulnerable
+            communities. This experience solidified my belief that engineering's highest purpose is serving people.
+            I am currently deepening my knowledge in robotics, programming, and signal processing as I progress
+            through my degree — always curious, always growing.
+          </p>
+        </div>
+
+        <!-- Career Goals -->
+        <div class="content-card reveal">
+          <h2 class="content-card-title">Career Goals</h2>
+          <div class="goal-list">
+            <div class="goal-item">Graduate from RUET with excellence in Electronics & Telecommunication Engineering and contribute meaningfully to research in assistive technology.</div>
+            <div class="goal-item">Develop innovative robotics and embedded systems solutions that improve quality of life for people with disabilities and the elderly.</div>
+            <div class="goal-item">Pursue advanced studies or research opportunities — domestically or internationally — in the fields of human-robot interaction or biomedical engineering.</div>
+            <div class="goal-item">Build a career that bridges technology and creativity, combining engineering precision with storytelling and design thinking.</div>
+            <div class="goal-item">Inspire other young women in Bangladesh to pursue STEM fields with confidence and passion.</div>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="content-card reveal">
+          <h2 class="content-card-title">Interests & Hobbies</h2>
+          <div class="interests-grid">
+            <div class="interest-tag">🌿 Gardening</div>
+            <div class="interest-tag">📸 Photography</div>
+            <div class="interest-tag">🤖 Robotics</div>
+            <div class="interest-tag">📖 Storytelling</div>
+            <div class="interest-tag">🗣️ Reciting</div>
+            <div class="interest-tag">💻 Programming</div>
+            <div class="interest-tag">🌸 Nature Walks</div>
+            <div class="interest-tag">🔬 Research</div>
+            <div class="interest-tag">🌐 English Speaking</div>
+          </div>
+        </div>
+
+        <!-- Personal Details -->
+        <div class="content-card reveal">
+          <h2 class="content-card-title">Personal Details</h2>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Full Name</div>
+              <div style="font-weight:600;color:var(--text-dark);">Jannatul Ferdaus</div>
+            </div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">University</div>
+              <div style="font-weight:600;color:var(--text-dark);">RUET</div>
+            </div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Department</div>
+              <div style="font-weight:600;color:var(--text-dark);">Electronics & Telecom</div>
+            </div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Admission Year</div>
+              <div style="font-weight:600;color:var(--text-dark);">2023</div>
+            </div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Email</div>
+              <div style="font-weight:600;color:var(--text-dark);">jj826773@gmail.com</div>
+            </div>
+            <div>
+              <div style="font-size:0.78rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Languages</div>
+              <div style="font-weight:600;color:var(--text-dark);">Bengali, English</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">JF<span>.</span></div>
+    <p class="footer-tagline">Electronics Engineer · Robotics Enthusiast · Gardener · Storyteller</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">© 2025 Jannatul Ferdaus · RUET ETE Department · CSE 3154 Web Programming</p>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

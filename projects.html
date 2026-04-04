@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Jannatul Ferdaus – Robotics, Gardening, Photography." />
+  <title>Projects | Jannatul Ferdaus</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">JF<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👩‍💼 About</a>
+    <a href="education.html">🎓 Education</a>
+    <a href="skills.html">⚡ Skills</a>
+    <a href="projects.html">🚀 Projects</a>
+    <a href="contact.html">✉️ Contact</a>
+  </div>
+
+  <main class="page-content">
+
+    <div class="page-hero">
+      <div class="page-hero-tag">My Work</div>
+      <h1 class="page-hero-title">Projects & <span>Experience</span></h1>
+      <p class="page-hero-desc">
+        From assistive robotics to garden portraits — each project tells a story of
+        curiosity, creativity, and dedication to craft.
+      </p>
+    </div>
+
+    <div class="projects-content">
+
+      <!-- Filter Buttons -->
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">🔍 All Projects</button>
+        <button class="filter-btn" data-filter="robotics">🤖 Robotics</button>
+        <button class="filter-btn" data-filter="gardening">🌿 Gardening</button>
+        <button class="filter-btn" data-filter="photography">📸 Photography</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: Dementia Device (FEATURED) -->
+        <div class="project-card reveal" data-category="robotics">
+          <!-- Replace with: images/project-dementia.jpg -->
+          <img
+            src="dementiaProject.jpeg"
+            alt="Dementia Patient Assistive Device"
+            class="project-image"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <span>🤖</span>
+            <p>Add images/project-dementia.jpg</p>
+          </div>
+          <div class="project-body">
+            <div class="project-category">
+              🤖 Robotics / Embedded Systems
+              <span class="featured-badge">⭐ Featured</span>
+            </div>
+            <h3 class="project-title">Dementia Patient Assistive Device</h3>
+            <p class="project-desc">
+              A hardware-software integrated assistive device designed for dementia patients.
+              The device helps patients with reminders, location tracking, and emergency alerts,
+              reducing caregiver burden and improving patient safety. Developed as a 2nd semester
+              project at RUET ETE Department. The system uses a microcontroller with sensors,
+              a buzzer alert mechanism, and a simple LCD interface for caregivers.
+            </p>
+            <div class="project-tools">
+              <span class="tool-tag">Arduino</span>
+              <span class="tool-tag">C/C++</span>
+              <span class="tool-tag">Sensors</span>
+              <span class="tool-tag">LCD Display</span>
+              <span class="tool-tag">Buzzer Circuit</span>
+              <span class="tool-tag">Embedded Systems</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: Garden Photography -->
+        <div class="project-card reveal" data-category="gardening">
+          <!-- Replace with: images/project-garden1.jpg -->
+          <img
+            src="Gardening.jpeg"
+            alt="My Garden – Jannatul Ferdaus"
+            class="project-image"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <span>🌿</span>
+            <p>Add images/project-garden1.jpg</p>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🌿 Gardening Project</div>
+            <h3 class="project-title">Urban Balcony Garden — Green Living</h3>
+            <p class="project-desc">
+              A personal gardening initiative to cultivate a thriving balcony garden using
+              recycled containers and organic soil. Grew over 15 varieties of herbs, flowers,
+              and vegetables. Documented the entire growth cycle from seed to harvest through
+              weekly photography, creating a visual journal of the garden's transformation
+              through the seasons.
+            </p>
+            <div class="project-tools">
+              <span class="tool-tag">Organic Gardening</span>
+              <span class="tool-tag">Container Planting</span>
+              <span class="tool-tag">Photography</span>
+              <span class="tool-tag">Nature Journaling</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: Nature Photography -->
+        <div class="project-card reveal" data-category="photography">
+          <!-- Replace with: images/project-photo1.jpg -->
+          <img
+            src="photography.jpeg"
+            alt="Nature Photography Project"
+            class="project-image"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <span>📸</span>
+            <p>Add images/project-photo1.jpg</p>
+          </div>
+          <div class="project-body">
+            <div class="project-category">📸 Photography Series</div>
+            <h3 class="project-title">Petals & Light — Botanical Photography Series</h3>
+            <p class="project-desc">
+              A curated botanical photography series capturing the intricate beauty of garden
+              flowers, leaves, and morning dew. Shot during golden hours to maximize natural
+              lighting. Post-processed in Adobe Lightroom to enhance natural colors while
+              maintaining realistic tones. A collection of over 50 photos that celebrate
+              the quiet poetry of plant life.
+            </p>
+            <div class="project-tools">
+              <span class="tool-tag">Photography</span>
+              <span class="tool-tag">Adobe Lightroom</span>
+              <span class="tool-tag">Composition</span>
+              <span class="tool-tag">Natural Light</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4: Robotics Line Follower -->
+<div class="project-card reveal" data-category="robotics">
+
+  <!-- Add your image here -->
+  <img
+    src="lineFolloRobot.jpeg"
+    alt="Line Follower Robot"
+    class="project-image"
+    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+  />
+
+  <!-- Fallback placeholder -->
+  <div class="project-image-placeholder" style="display:none;">
+    <span>⚙️</span>
+    <p>Add images/project-robot2.jpg</p>
+  </div>
+
+  <div class="project-body">
+    <div class="project-category">🤖 Robotics</div>
+    <h3 class="project-title">Line Following Robot — Autonomous Navigation</h3>
+    <p class="project-desc">
+      Built and programmed a line-following robot using infrared sensors and an
+      Arduino microcontroller. The robot autonomously follows a pre-drawn track
+      using a PID control algorithm for smooth turning and speed regulation.
+      Demonstrated at a university lab session and awarded for innovative sensor
+      placement design.
+    </p>
+    <div class="project-tools">
+      <span class="tool-tag">Arduino</span>
+      <span class="tool-tag">IR Sensors</span>
+      <span class="tool-tag">PID Control</span>
+      <span class="tool-tag">Motor Driver</span>
+      <span class="tool-tag">C/C++</span>
+    </div>
+  </div>
+</div>
+        <!-- PROJECT 5: Garden Companion -->
+        <div class="project-card reveal" data-category="gardening">
+          <!-- Replace with: images/project-garden2.jpg -->
+          <img
+            src="kitchen.jpeg"
+            alt="Herb Garden Project"
+            class="project-image"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <span>🌱</span>
+            <p>Add images/project-garden2.jpg</p>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🌱 Gardening Project</div>
+            <h3 class="project-title">Kitchen Herb Garden — Farm to Table</h3>
+            <p class="project-desc">
+              Designed and grew a functional kitchen herb garden featuring mint, coriander,
+              basil, green onions, and chili peppers. Implemented a DIY drip irrigation
+              system using recycled plastic bottles. Kept a detailed growth log tracking
+              soil pH, watering intervals, and harvest yields over a 3-month period.
+            </p>
+            <div class="project-tools">
+              <span class="tool-tag">Herb Cultivation</span>
+              <span class="tool-tag">DIY Irrigation</span>
+              <span class="tool-tag">Growth Tracking</span>
+              <span class="tool-tag">Organic Methods</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 6: Street Photography -->
+        <div class="project-card reveal" data-category="photography">
+          <!-- Replace with: images/project-photo2.jpg -->
+          <img
+            src="ruetlife.jpeg"
+            alt="Campus Photography"
+            class="project-image"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <span>🎞️</span>
+            <p>Add images/project-photo2.jpg</p>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🎞️ Photography Series</div>
+            <h3 class="project-title">RUET Campus Life — Visual Diary</h3>
+            <p class="project-desc">
+              A photographic visual diary documenting student life at RUET — from early
+              morning labs and project showcases to campus events and quiet study corners.
+              Inspired by the belief that everyday campus moments deserve to be preserved.
+              Published as a personal photo blog shared with classmates.
+            </p>
+            <div class="project-tools">
+              <span class="tool-tag">Photography</span>
+              <span class="tool-tag">Storytelling</span>
+              <span class="tool-tag">Canva</span>
+              <span class="tool-tag">Photo Blog</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end projects-grid -->
+
+      <!-- Call to action -->
+      <div class="content-card reveal" style="text-align:center; margin-top:48px;">
+        <div style="font-size:2.4rem; margin-bottom:14px;">💡</div>
+        <h3 style="font-family:var(--font-display); font-size:1.4rem; font-weight:700; color:var(--navy); margin-bottom:10px;">Have a Project in Mind?</h3>
+        <p style="color:var(--text-muted); max-width:480px; margin:0 auto 22px; font-size:0.95rem; line-height:1.7;">
+          I'm always eager to collaborate on innovative engineering projects, photography assignments,
+          or creative storytelling work. Let's build something meaningful together.
+        </p>
+        <a href="contact.html" class="btn-primary">✉️ Let's Collaborate</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">JF<span>.</span></div>
+    <p class="footer-tagline">Electronics Engineer · Robotics Enthusiast · Gardener · Storyteller</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">© 2025 Jannatul Ferdaus · RUET ETE Department · CSE 3154 Web Programming</p>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
